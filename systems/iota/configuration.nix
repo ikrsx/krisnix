@@ -10,6 +10,7 @@
     ./categories/system-packages.nix
     ./categories/time-locale.conf
     ./categories/users.nix
+    ./categories/virtualisation.nix
   ];
 
   system.stateVersion = "25.05";
