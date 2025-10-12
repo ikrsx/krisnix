@@ -29,7 +29,6 @@
         modules = [ 
           ./systems/iota/configuration.nix
           disko.nixosModules.disko 
-          stylix.nixosModules.stylix
         ];
       };
     };
