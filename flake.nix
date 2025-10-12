@@ -13,14 +13,9 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    stylix = {
-      url = "github:nix-community/stylix";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
   };
 
-  outputs = { self, disko, nixpkgs, home-manager, stylix, }:
+  outputs = { self, disko, nixpkgs, home-manager, }:
   let
     system = "x86_64-linux";
     nixlib = nixpkgs.lib;
