@@ -16,7 +16,6 @@
   };
 
   home.packages = with pkgs; [
-    git
     syncthing
     librewolf
     libreoffice-fresh
