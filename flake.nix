@@ -20,7 +20,7 @@
     };
   };
 
-  outputs = { self, disko, nixpkgs, home-manager, }:
+  outputs = { self, disko, nixpkgs, stylix, home-manager, }:
   let
     system = "x86_64-linux";
     nixlib = nixpkgs.lib;
