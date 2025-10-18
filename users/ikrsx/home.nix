@@ -21,6 +21,5 @@
     libreoffice-fresh
     loupe
     papers
-    gnomeExtensions.user-themes
   ];
 }
