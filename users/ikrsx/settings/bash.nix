@@ -10,6 +10,8 @@ in
       clean = "sudo nix-collect-garbage -d";
       reload = "sudo nixos-rebuild switch --flake ${workdir}#iota";
       reload-home = "home-manager switch --flake ${workdir}#ikrsx";
+      update = "sudo nix flake update";
+      optimise = "sudo nix store optimise";
       btm = "btm --theme gruvbox";
       cat = "bat";
       ls = "lsd";
