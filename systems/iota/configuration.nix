@@ -8,6 +8,7 @@
     ./categories/console.nix
     ./categories/desktop.nix
     ./categories/networking.nix
+    ./categories/stylix.nix
     ./categories/system-packages.nix
     ./categories/time-locale.conf
     ./categories/users.nix

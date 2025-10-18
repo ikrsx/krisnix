@@ -9,6 +9,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    stylix = {
+      url = "github:nix-community/stylix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -29,6 +34,7 @@
         modules = [ 
           ./systems/iota/configuration.nix
           disko.nixosModules.disko 
+          stylix.nixosModules.stylix
         ];
       };
     };
