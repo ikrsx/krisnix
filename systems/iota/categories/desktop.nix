@@ -8,6 +8,10 @@
       excludePackages = [ pkgs.xterm ];
     };
 
+    desktopManager.lxqt = {
+      enable = true;
+    };
+
     displayManager.ly = { enable = true; };
   };
 }
