@@ -6,7 +6,7 @@
       enable = true;
       xkb.layout = "gb";
       excludePackages = [ pkgs.xterm ];
-      desktopManager.lxqt = {
+      desktopManager.xfce = {
         enable = true;
       };
     };
