@@ -6,10 +6,9 @@
       enable = true;
       xkb.layout = "gb";
       excludePackages = [ pkgs.xterm ];
-    };
-
-    desktopManager.lxqt = {
-      enable = true;
+      desktopManager.lxqt = {
+        enable = true;
+      };
     };
 
     displayManager.ly = { enable = true; };
