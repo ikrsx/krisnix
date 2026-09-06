@@ -19,5 +19,13 @@
     bat
     unzip
     p7zip
+    xwayland-satellite
+    kitty
+    gnome-calculator
+    loupe
+    clapper
+    fragments
+    firefox
+    onlydesktop-desktopeditors
   ];
 }
