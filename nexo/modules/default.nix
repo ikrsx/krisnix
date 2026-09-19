@@ -5,5 +5,6 @@
     ./power-management.nix
     ./system-programs.nix
     ./niri.nix
+    ./noctalia.nix
   ];
 }

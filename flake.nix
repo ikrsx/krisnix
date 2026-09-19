@@ -3,8 +3,19 @@
 
   inputs = {
     nixpkgs.url = "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.zst";
+
     disko = {
       url = "github:nix-community/disko/latest";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    noctalia = {
+      url = "github:noctalia-dev/noctalia";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    noctalia-greeter = {
+      url = "github:noctalia-dev/noctalia-greeter";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -14,6 +25,8 @@
       modules = [
         ./nexo/configuration.nix
         inputs.disko.nixosModules.disko
+        inputs.noctalia.nixosModules.default
+        inputs.noctalia-greeter.nixosModules.default
       ];
     };
   };
