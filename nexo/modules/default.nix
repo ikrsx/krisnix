@@ -6,5 +6,6 @@
     ./system-programs.nix
     ./niri.nix
     ./noctalia.nix
+    ./nvf/nvf.nix
   ];
 }

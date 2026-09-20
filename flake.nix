@@ -18,6 +18,11 @@
       url = "github:noctalia-dev/noctalia-greeter";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    nvf = {
+      url = "github:notashelf/nvf";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs: {
@@ -27,6 +32,7 @@
         inputs.disko.nixosModules.disko
         inputs.noctalia.nixosModules.default
         inputs.noctalia-greeter.nixosModules.default
+        inputs.nvf.nixosModules.default
       ];
     };
   };
