@@ -23,6 +23,11 @@
       url = "github:notashelf/nvf";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    stylix = {
+      url = "github:nix-community/stylix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs: {
@@ -33,6 +38,7 @@
         inputs.noctalia.nixosModules.default
         inputs.noctalia-greeter.nixosModules.default
         inputs.nvf.nixosModules.default
+        inputs.stylix.nixosModules.stylix
       ];
     };
   };
