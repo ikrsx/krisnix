@@ -7,5 +7,6 @@
     ./niri.nix
     ./noctalia.nix
     ./nvf/nvf.nix
+    ./stylix/stylix.nix
   ];
 }
