@@ -28,6 +28,11 @@
       url = "github:nix-community/stylix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    home-manager = {
+      url = "github:nix-community/home-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs: {
@@ -39,6 +44,12 @@
         inputs.noctalia-greeter.nixosModules.default
         inputs.nvf.nixosModules.default
         inputs.stylix.nixosModules.stylix
+        inputs.home-manager.nixosModules.home-manager
+        {
+          home-manager.useGlobalPkgs = true;
+          home-manager.useUserPackages = true;
+          home-manager.users.ikrsx = ./ikrsx/home.nix;
+        }
       ];
     };
   };
