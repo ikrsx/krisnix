@@ -12,9 +12,10 @@
     pfetch-rs
     xwayland-satellite
     kitty
+    loupe
+    clapper
+    gnome-calculator
     firefox
-    libreoffice-qt
-    hunspell
-    hyphenDicts.en_US
+    libreoffice
   ];
 }
