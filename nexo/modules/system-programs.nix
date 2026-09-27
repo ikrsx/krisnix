@@ -18,4 +18,8 @@
     firefox
     libreoffice
   ];
+
+  fonts.packages = with pkgs; [
+    corefonts
+  ];
 }
