@@ -250,6 +250,7 @@ fingerprint = true
 lock_before_suspend = true
 monitors = []
 tint_intensity = 0.30000001192092896
+transition = [ "zoom" ]
 wallpaper = ""
 
 [lockscreen_widgets]
@@ -674,6 +675,15 @@ transition_on_startup = true
     interval_seconds = 1800
     order = "random"
     recursive = false
+
+    [wallpaper.default]
+    path = "/home/ikrsx/Pictures/Wallpapers/evening-sky.png"
+
+    [wallpaper.last]
+    path = "/home/ikrsx/Pictures/Wallpapers/evening-sky.png"
+
+    [wallpaper.monitors.eDP-1]
+    path = "/home/ikrsx/Pictures/Wallpapers/evening-sky.png"
 
 [weather]
 effects = true
