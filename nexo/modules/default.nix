@@ -6,6 +6,7 @@
     ./system-programs.nix
     ./niri.nix
     ./noctalia.nix
+    ./docker.nix
     ./nvf/nvf.nix
     ./stylix/stylix.nix
   ];
