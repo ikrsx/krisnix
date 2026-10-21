@@ -17,6 +17,7 @@
     gnome-calculator
     firefox
     libreoffice
+    filezilla
   ];
 
   fonts.packages = with pkgs; [
