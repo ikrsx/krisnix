@@ -9,7 +9,6 @@
     lsd
     bat
     bottom
-    pfetch-rs
     xwayland-satellite
     kitty
     loupe
@@ -21,6 +20,8 @@
   ];
 
   fonts.packages = with pkgs; [
+    inter
+    nerd-fonts.jetbrains-mono
     corefonts
   ];
 }
