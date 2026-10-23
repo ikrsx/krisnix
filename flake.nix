@@ -14,6 +14,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    dms = {
+      url = "github:duxlabs-dev/dux-shell/stable";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -26,6 +31,7 @@
         ./nexo/configuration.nix
         inputs.disko.nixosModules.disko
         inputs.nvf.nixosModules.default
+        inputs.dms.nixosModules.dank-material-shell
         inputs.home-manager.nixosModules.home-manager
         {
           home-manager.useGlobalPkgs = true;
