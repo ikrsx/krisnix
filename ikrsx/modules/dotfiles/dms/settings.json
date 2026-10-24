@@ -159,7 +159,7 @@
   "runUserMatugenTemplates": true,
   "matugenTemplateHyprland": false,
   "matugenTemplateMangowc": false,
-  "matugenTemplateQt5ct": true,
+  "matugenTemplateQt5ct": false,
   "matugenTemplateQtengine": true,
   "matugenTemplateFcitx5": false,
   "matugenTemplatePywalfox": false,
@@ -451,5 +451,11 @@
   "batteryAutoPowerSaver": true,
   "acProfileName": "2",
   "batteryProfileName": "0",
-  "niriLayoutGapsOverride": 22
+  "niriLayoutGapsOverride": 22,
+  "matugenTemplateKitty": true,
+  "matugenTemplateGtk": true,
+  "matugenTemplateNiri": true,
+  "matugenTemplateQt6ct": false,
+  "matugenTemplateFirefox": true,
+  "matugenTemplateKcolorscheme": false
 }
