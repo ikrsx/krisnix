@@ -8,9 +8,4 @@
   };
 
   services.mpris-proxy.enable = true;
-
-  programs = {
-    bat.enable = true;
-    bottom.enable = true;
-  };
 }
