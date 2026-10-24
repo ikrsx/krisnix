@@ -1,7 +1,10 @@
 { pkgs, ... }:
 
 {
-  programs.nano.enable = false;
+  programs = {
+    nano.enable = false;
+    qtengine.enable = true;
+  };
 
   environment.systemPackages = with pkgs; [
     neovim
@@ -12,7 +15,6 @@
     kitty
     loupe
     clapper
-    qtengine
     morewaita-icon-theme
     gnome-calculator
     firefox
