@@ -14,4 +14,9 @@ in
     source = symlink "${dotfiles}/niri";
     recursive = true;
   };
+
+  xdg.configFile."kitty" = {
+    source = symlink "${dotfiles}/kitty";
+    recursive = true;
+  };
 }
