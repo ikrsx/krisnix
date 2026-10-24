@@ -457,5 +457,25 @@
   "matugenTemplateNiri": true,
   "matugenTemplateQt6ct": false,
   "matugenTemplateFirefox": true,
-  "matugenTemplateKcolorscheme": false
+  "matugenTemplateKcolorscheme": false,
+  "iconThemeDark": "MoreWaita",
+  "cursorSettings": {
+    "theme": "Adwaita",
+    "size": 24,
+    "niri": {
+      "hideWhenTyping": false,
+      "hideAfterInactiveMs": 0
+    },
+    "hyprland": {
+      "hideOnKeyPress": false,
+      "hideOnTouch": false,
+      "inactiveTimeout": 0
+    },
+    "dwl": {
+      "cursorHideTimeout": 0
+    },
+    "mango": {
+      "cursorHideTimeout": 0
+    }
+  }
 }
