@@ -8,11 +8,12 @@
     git
     lsd
     bat
-    bottom
     xwayland-satellite
     kitty
     loupe
     clapper
+    qtengine
+    morewaita-icon-theme
     gnome-calculator
     firefox
     libreoffice
