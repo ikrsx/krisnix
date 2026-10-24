@@ -19,6 +19,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    qtengine = {
+      url = "github:kossLAN/qtengine";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -32,6 +37,7 @@
         inputs.disko.nixosModules.disko
         inputs.nvf.nixosModules.default
         inputs.dms.nixosModules.dank-material-shell
+        inputs.qtengine.nixosModules.default
         inputs.home-manager.nixosModules.home-manager
         {
           home-manager.useGlobalPkgs = true;
