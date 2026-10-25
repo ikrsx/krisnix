@@ -477,5 +477,6 @@
     "mango": {
       "cursorHideTimeout": 0
     }
-  }
+  },
+  "appPickerViewMode": "list"
 }
