@@ -16,6 +16,7 @@
     loupe
     clapper
     morewaita-icon-theme
+    adw-gtk3
     gnome-calculator
     firefox
     collabora-desktop
