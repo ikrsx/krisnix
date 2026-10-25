@@ -15,6 +15,11 @@
         installation_mode = "force_installed";
         install_url = "https://addons.mozilla.org/firefox/downloads/latest/{bbb880ce-43c9-47ae-b746-c3e0096c5b76}/latest.xpi";
       };
+
+      "FirefoxColor@mozilla.com" = {
+        installation_mode = "force_installed";
+        install_url = "https://addons.mozilla.org/firefox/downloads/latest/FirefoxColor@mozilla.com/latest.xpi";
+      };
     };
 
     FirefoxHome = {
