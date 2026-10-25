@@ -18,7 +18,7 @@
     morewaita-icon-theme
     gnome-calculator
     firefox
-    libreoffice
+    collabora-desktop
     filezilla
   ];
 
