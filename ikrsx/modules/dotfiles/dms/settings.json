@@ -740,5 +740,10 @@
   "niriOverviewLauncherStyle": "full",
   "launcherStyle": "full",
   "dankLauncherV2Size": "compact",
-  "modalDarkenBackground": true
+  "modalDarkenBackground": true,
+  "blurWallpaperOnOverview": false,
+  "popupTransparency": 0.8,
+  "foregroundLayerTransparency": 0.8,
+  "blurStrength": 72,
+  "m3ElevationEnabled": true
 }
