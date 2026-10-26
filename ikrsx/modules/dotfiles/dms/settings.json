@@ -745,5 +745,17 @@
   "popupTransparency": 0.8,
   "foregroundLayerTransparency": 0.8,
   "blurStrength": 72,
-  "m3ElevationEnabled": true
+  "m3ElevationEnabled": true,
+  "matugenTemplateNeovim": true,
+  "matugenTemplateNeovimSettings": {
+    "dark": {
+      "baseTheme": "catppuccin",
+      "harmony": 0
+    },
+    "light": {
+      "baseTheme": "catppuccin-latte",
+      "harmony": 0
+    }
+  },
+  "matugenTemplateNeovimSetBackground": true
 }
