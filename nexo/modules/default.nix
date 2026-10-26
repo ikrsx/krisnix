@@ -5,8 +5,7 @@
     ./power-management.nix
     ./printing.nix
     ./system-programs.nix
-    ./niri.nix
-    ./dux.nix
-    ./docker.nix
+    ./desktop.nix
+    ./virtualisation.nix
   ];
 }

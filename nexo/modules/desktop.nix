@@ -1,7 +1,13 @@
 { config, ... }:
 
 {
-  programs.niri.enable = true;
+  programs = {
+  niri.enable = true;
+  dank-material-shell = {
+    enable = true;
+    enableCalendarEvents = false;
+    };
+  };
 
   services.greetd = {
     enable = true;
