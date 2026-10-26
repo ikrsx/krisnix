@@ -9,11 +9,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    nvf = {
-      url = "github:notashelf/nvf";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     dms = {
       url = "github:duxlabs-dev/dux-shell/stable";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -35,7 +30,6 @@
       modules = [
         ./nexo/configuration.nix
         inputs.disko.nixosModules.disko
-        inputs.nvf.nixosModules.default
         inputs.dms.nixosModules.dank-material-shell
         inputs.qtengine.nixosModules.default
         inputs.home-manager.nixosModules.home-manager
