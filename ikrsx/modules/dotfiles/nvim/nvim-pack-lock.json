@@ -1,0 +1,36 @@
+{
+  "plugins": {
+    "base46": {
+      "rev": "b3beb806e1a5de9ea883b9968274dd908a50ce94",
+      "src": "https://github.com/duxlabs-dev/base46"
+    },
+    "blink.cmp": {
+      "rev": "1e4cb39b9200950dca1cbc4d630c60c16eb8e7e4",
+      "src": "https://github.com/Saghen/blink.cmp"
+    },
+    "blink.lib": {
+      "rev": "fd9a48ebbe6ec30d5dfcc5b42c243941ccdca1aa",
+      "src": "https://github.com/Saghen/blink.lib"
+    },
+    "friendly-snippets": {
+      "rev": "b4d01b0fdf3c9a549961c2f9ffe8dc09be166219",
+      "src": "https://github.com/rafamadriz/friendly-snippets"
+    },
+    "lualine.nvim": {
+      "rev": "221ce6b2d999187044529f49da6554a92f740a96",
+      "src": "https://github.com/nvim-lualine/lualine.nvim"
+    },
+    "nvim-autopairs": {
+      "rev": "3172f40c16563db871a58f20d205c710ad782311",
+      "src": "https://github.com/windwp/nvim-autopairs"
+    },
+    "nvim-lspconfig": {
+      "rev": "77b7432d4770d23b277d37923e5a08a442d8bb07",
+      "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "nvim-tree.lua": {
+      "rev": "3be8cad084e79e84833ef98cef88116c26a224ff",
+      "src": "https://github.com/nvim-tree/nvim-tree.lua"
+    }
+  }
+}

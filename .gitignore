@@ -2,3 +2,6 @@ ikrsx/modules/dotfiles/dms/.changelog-2.0
 ikrsx/modules/dotfiles/dms/.firstlaunch
 ikrsx/modules/dotfiles/kitty/dank-tabs.conf
 ikrsx/modules/dotfiles/kitty/dank-theme.conf
+ikrsx/modules/dotfiles/nvim/colors
+ikrsx/modules/dotfiles/nvim/lua/lualine
+ikrsx/modules/dotfiles/nvim/nvim-pack-lock.json
