@@ -4,6 +4,7 @@
   programs = {
     nano.enable = false;
     qtengine.enable = true;
+    virt-manager.enable = true;
   };
 
   environment.systemPackages = with pkgs; [
@@ -11,6 +12,7 @@
     git
     lsd
     bat
+    dnsmasq
     xwayland-satellite
     kitty
     loupe
