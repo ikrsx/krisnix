@@ -9,7 +9,10 @@
       "8.8.4.4"
     ];
     firewall = {
-      allowedTCPPorts = [ ];
+      allowedTCPPorts = [
+        22
+        2222
+      ];
       allowedUDPPorts = [ ];
     };
   };
