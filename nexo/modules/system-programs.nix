@@ -20,9 +20,11 @@
     morewaita-icon-theme
     adw-gtk3
     gnome-calculator
+    libreoffice
     firefox
-    collabora-desktop
     filezilla
+    nil
+    bash-language-server
   ];
 
   fonts.packages = with pkgs; [
