@@ -19,4 +19,9 @@ in
     source = symlink "${dotfiles}/nvim";
     recursive = true;
   };
+
+  xdg.configFile."fuzzel" = {
+    source = symlink "${dotfiles}/fuzzel";
+    recursive = true;
+  };
 }
