@@ -6,6 +6,8 @@
     qtengine.enable = true;
   };
 
+  security.pam.services.hyprlock = {};
+
   environment.systemPackages = with pkgs; [
     neovim
     git
@@ -24,11 +26,13 @@
     morewaita-icon-theme
     adw-gtk3
     swayidle
+    waybar
     swaybg
     wofi
     hyprlock
     nil
     bash-language-server
+    docker-language-server
   ];
 
   fonts.packages = with pkgs; [
