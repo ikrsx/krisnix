@@ -1,12 +1,12 @@
 binds {
   Mod+B allow-when-locked=true { spawn "firefox"; }
   Mod+T { spawn "kitty"; }
-  Mod+R { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
+  Mod+R { spawn "fuzzel"; }
 
   Print { spawn "dms" "screenshot"; }
   Alt+Print { spawn "dms" "screenshot" "window"; }
   Ctrl+Print { spawn "dms" "screenshot" "full"; }
-  Super+Alt+L { spawn "dms" "ipc" "call" "lock" "lock"; }
+  Super+Alt+L { spawn "hyprlock"; }
   Ctrl+Alt+Delete { spawn "dms" "ipc" "call" "powermenu" "open"; }
   Mod+Shift+P { power-off-monitors; }
   Mod+Shift+E { quit; }

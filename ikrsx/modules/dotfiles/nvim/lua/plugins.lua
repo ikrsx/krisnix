@@ -9,6 +9,9 @@ vim.pack.add({
   'https://github.com/neovim/nvim-lspconfig',
 })
 
+require('catppuccin').setup({
+  transparent_background = true
+})
 require('lualine').setup()
 require("nvim-tree").setup()
 require("nvim-autopairs").setup()

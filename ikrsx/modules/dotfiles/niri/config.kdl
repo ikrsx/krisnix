@@ -2,6 +2,9 @@ environment {
   _JAVA_AWT_WM_NONREPARENTING "1"
 }
 
+spawn-at-startup "waybar"
+spawn-sh-at-startup "swaybg -i ~/Pictures/Wallpapers/dark-forest.jpg"
+
 hotkey-overlay {
   skip-at-startup
 }

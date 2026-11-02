@@ -28,7 +28,7 @@
     swayidle
     waybar
     swaybg
-    wofi
+    fuzzel
     hyprlock
     nil
     bash-language-server
