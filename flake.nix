@@ -9,11 +9,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    dms = {
-      url = "github:duxlabs-dev/dux-shell/stable";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     qtengine = {
       url = "github:kossLAN/qtengine";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -30,7 +25,6 @@
       modules = [
         ./nexo/configuration.nix
         inputs.disko.nixosModules.disko
-        inputs.dms.nixosModules.dank-material-shell
         inputs.qtengine.nixosModules.default
         inputs.home-manager.nixosModules.home-manager
         {
