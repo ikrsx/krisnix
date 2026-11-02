@@ -1,0 +1,60 @@
+binds {
+  Mod+B allow-when-locked=true { spawn "firefox"; }
+  Mod+T { spawn "kitty"; }
+  Mod+R { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
+
+  Print { spawn "dms" "screenshot"; }
+  Alt+Print { spawn "dms" "screenshot" "window"; }
+  Ctrl+Print { spawn "dms" "screenshot" "full"; }
+  Super+Alt+L { spawn "dms" "ipc" "call" "lock" "lock"; }
+  Ctrl+Alt+Delete { spawn "dms" "ipc" "call" "powermenu" "open"; }
+  Mod+Shift+P { power-off-monitors; }
+  Mod+Shift+E { quit; }
+
+  Mod+O repeat=false { toggle-overview; }
+  Mod+Shift+Slash { show-hotkey-overlay; }
+  Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
+
+  XF86AudioLowerVolume allow-when-locked=true { spawn "dms" "ipc" "call" "audio" "decrement" "5"; }
+  XF86AudioRaiseVolume allow-when-locked=true { spawn "dms" "ipc" "call" "audio" "increment" "5"; }
+  XF86AudioMute allow-when-locked=true { spawn "dms" "ipc" "call" "audio" "mute"; }
+  XF86AudioMicMute allow-when-locked=true { spawn "dms" "ipc" "call" "mic" "mute"; }
+  XF86AudioPlay allow-when-locked=true { spawn "dms" "ipc" "call" "mpris" "playPause"; }
+  XF86AudioStop allow-when-locked=true { spawn "dms" "ipc" "call" "mpris" "stop"; }
+  XF86AudioPrev allow-when-locked=true { spawn "dms" "ipc" "call" "mpris" "previous"; }
+  XF86AudioNext allow-when-locked=true { spawn "dms" "ipc" "call" "mpris" "next"; }
+
+  XF86MonBrightnessDown allow-when-locked=true { spawn "dms" "ipc" "call" "brightness" "decrement" "5" ""; }
+  XF86MonBrightnessUp allow-when-locked=true { spawn "dms" "ipc" "call" "brightness" "increment" "5" ""; }
+
+  Mod+H     { focus-column-left; }
+  Mod+J     { focus-workspace-down; }
+  Mod+K     { focus-workspace-up; }
+  Mod+L     { focus-column-right; }
+  Mod+Shift+H     { move-column-left; }
+  Mod+Shift+J     { move-window-to-workspace-down; }
+  Mod+Shift+K     { move-window-to-workspace-up; }
+  Mod+Shift+L     { move-column-right; }
+  Mod+Ctrl+H     { focus-monitor-left; }
+  Mod+Ctrl+J     { focus-monitor-down; }
+  Mod+Ctrl+K     { focus-monitor-up; }
+  Mod+Ctrl+L     { focus-monitor-right; }
+  Mod+Shift+Ctrl+H     { move-column-to-monitor-left; }
+  Mod+Shift+Ctrl+J     { move-column-to-monitor-down; }
+  Mod+Shift+Ctrl+K     { move-column-to-monitor-up; }
+  Mod+Shift+Ctrl+L     { move-column-to-monitor-right; }
+  Mod+WheelScrollDown      cooldown-ms=150 { focus-workspace-down; }
+  Mod+WheelScrollUp        cooldown-ms=150 { focus-workspace-up; }
+  Mod+Shift+WheelScrollDown cooldown-ms=150 { move-window-to-workspace-down; }
+  Mod+Shift+WheelScrollUp   cooldown-ms=150 { move-window-to-workspace-up; }
+
+  Mod+Equal { set-column-width "+10%"; }
+  Mod+Minus { set-column-width "-10%"; }
+  Mod+Shift+Equal { set-window-height "+10%"; }
+  Mod+Shift+Minus { set-window-height "-10%"; }
+  Mod+F { maximize-column; }
+  Mod+M { maximize-window-to-edges; }
+  Mod+Shift+F { fullscreen-window; }
+  Mod+V { toggle-window-floating; }
+  Mod+Shift+V { switch-focus-between-floating-and-tiling; }
+}

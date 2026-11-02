@@ -1,5 +1,5 @@
 vim.pack.add({
-  'https://github.com/duxlabs-dev/base46',
+  'https://github.com/catppuccin/nvim',
   'https://github.com/nvim-lualine/lualine.nvim',
   'https://github.com/rafamadriz/friendly-snippets',
   'https://github.com/Saghen/blink.cmp',

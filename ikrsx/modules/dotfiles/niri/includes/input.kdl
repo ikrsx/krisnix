@@ -1,0 +1,13 @@
+input {
+  touchpad {
+    tap
+    accel-speed 0.0
+    natural-scroll
+  }
+
+  keyboard {
+    xkb {
+      layout "gb,us"
+    }
+  }
+}
