@@ -17,12 +17,16 @@
     kitty
     loupe
     clapper
-    morewaita-icon-theme
-    adw-gtk3
     gnome-calculator
     libreoffice
     firefox
     filezilla
+    morewaita-icon-theme
+    adw-gtk3
+    swayidle
+    swaybg
+    wofi
+    hyprlock
     nil
     bash-language-server
   ];
