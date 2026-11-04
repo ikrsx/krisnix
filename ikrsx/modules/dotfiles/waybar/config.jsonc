@@ -1,0 +1,98 @@
+{
+  "layer": "top",
+  "position": "left",
+  "spacing": 4,
+  "width": 42,
+
+  "modules-left": [
+    "custom/launcher",
+    "niri/workspaces"
+  ],
+
+  "modules-center": [
+    "clock"
+  ],
+
+  "modules-right": [
+    "network",
+    "bluetooth",
+    "pulseaudio",
+    "battery"
+  ],
+
+  "custom/launcher": {
+    "format": "󱄅",
+    "tooltip-format": "󱄅\tLauncher",
+    "on-click": "fuzzel"
+  },
+
+  "niri/workspaces": {
+    "format": "󰝥"
+  },
+
+  "clock": {
+    "format": "{:%H\n%M}",
+    "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "calendar": {
+      "format": {
+        "today": "<span color='#ff6699'><b>{}</b></span>"
+      }
+    }
+  },
+
+  "network": {
+    "format-wifi": "{icon}",
+    "format-ethernet": "󰈀",
+    "tooltip-format": "󰈀  {ifname} ({gwaddr})",
+    "tooltip-format-wifi": "󰤨 \t{essid} ({gwaddr})",
+    "format-linked": "󰈀",
+    "format-disconnected": "󰈀",
+    "format-disabled": "",
+    "format-icons": ["󰤯", "󰤟", "󰤢", "󰤨"]
+  },
+
+  "bluetooth": {
+    "format-connected": "󰂱",
+    "format-off": "󰂲",
+    "format-on": "󰂯",
+    "format-disabled": "",
+    "tooltip-format-enumerate-connected": "󰂯 {device_alias}",
+    "tooltip-format-enumerate-connected-battery": "󰂯 {device_alias}\t{device_battery_percentage}%"
+  },
+
+  "pulseaudio": {
+    "format": "{icon}",
+    "format-bluetooth": "󰂰",
+    "format-muted": "󰝟",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "󱡏",
+      "headset": "󰋎",
+      "phone": "",
+      "phone-muted": "",
+      "portable": "",
+      "car": "",
+      "default": ["󰕿", "󰖀", "󰕾"]
+    },
+    "scroll-step": 1,
+    "tooltip-format": "󰕾\t{volume}%\n󰍬\t{source_volume}"
+  },
+
+  "battery": {
+    "interval": 60,
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "events": {
+      "on-discharging-warning": "notify-send -u normal 'Low Battery'",
+      "on-discharging-critical": "notify-send -u critical 'Very Low Battery'",
+      "on-charging-100": "notify-send -u normal 'Battery Full!'",
+      "on-charging": "notify-send -u normal 'Power Switch' Charging'"
+    },
+    "format": "{icon}",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "tooltip-format": "󰁹\t{capacity}%\n󰥔\t{timeTo}",
+    "max-length": 25
+  }
+}

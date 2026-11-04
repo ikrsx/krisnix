@@ -24,4 +24,9 @@ in
     source = symlink "${dotfiles}/fuzzel";
     recursive = true;
   };
+
+  xdg.configFile."waybar" = {
+    source = symlink "${dotfiles}/waybar";
+    recursive = true;
+  };
 }

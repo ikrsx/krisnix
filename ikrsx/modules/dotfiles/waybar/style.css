@@ -1,0 +1,52 @@
+@import "./themes/mocha.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+window#waybar {
+  background: @base;
+  color: @text;
+}
+
+#custom-launcher {
+  margin-top: 6px;
+  margin-right: 6px;
+  font-size: 24px;
+}
+
+#workspaces button {
+  margin-top: 2px;
+  margin-right: 2px;
+  color: @surface2;
+  background: transparent;
+  border: none;
+  border-radius: 100%;
+}
+
+#workspaces button.focused {
+  color: @mauve;
+}
+
+#clock {
+  font-size: 18px;
+}
+
+#network {
+  margin-right: 5px;
+}
+
+.modules-right,
+#workspaces {
+  font-size: 18px;
+  background: @surface0;
+  border-radius: 16px;
+  margin: 10px 6px;
+  padding: 5px 0;
+}
+
+#bluetooth.off,
+#network.disconnected {
+  color: @surface2;
+}
