@@ -29,4 +29,9 @@ in
     source = symlink "${dotfiles}/waybar";
     recursive = true;
   };
+
+  xdg.configFile."hypr" = {
+    source = symlink "${dotfiles}/hypr";
+    recursive = true;
+  };
 }
