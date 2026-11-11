@@ -12,7 +12,7 @@
     git
     lsd
     bat
-    bottom
+    dux-gop
     duf
     xwayland-satellite
     kitty
