@@ -1,5 +1,5 @@
 vim.lsp.enable('lua_ls')
-vim.lsp.enable('nil')
+vim.lsp.enable('nil_ls')
 vim.lsp.enable('clangd')
 vim.lsp.enable('bashls')
 vim.lsp.enable('dartls')

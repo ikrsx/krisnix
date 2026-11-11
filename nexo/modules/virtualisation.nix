@@ -1,11 +1,7 @@
 {
-  virtualisation = {
-    docker.enable = true;
-    libvirtd.enable = true;
-  };
+  virtualisation.docker.enable = true;
+  virtualisation.libvirtd.enable = true;
 
-  services = {
-    qemuGuest.enable = true;
-    spice-vdagentd.enable = true;
-  };
+  services.qemuGuest.enable = true;
+  services.spice-vdagentd.enable = true;
 }

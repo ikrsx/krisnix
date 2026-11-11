@@ -1,9 +1,11 @@
 environment {
   _JAVA_AWT_WM_NONREPARENTING "1"
+  QT_QPA_PLATFORM "wayland"
 }
 
 spawn-at-startup "waybar"
-spawn-sh-at-startup "swaybg -i ~/Pictures/Wallpapers/dark-forest.jpg"
+spawn-at-startup "swayidle"
+spawn-sh-at-startup "swaybg -i ~/Pictures/Wallpapers/evening-sky.png"
 
 hotkey-overlay {
   skip-at-startup
@@ -19,6 +21,11 @@ window-rule {
 window-rule {
   geometry-corner-radius 16
   clip-to-geometry true
+}
+
+overview {
+  zoom 1
+  backdrop-color "#181825"
 }
 
 include "includes/cursor.kdl"

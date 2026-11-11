@@ -1,7 +1,6 @@
 {
   boot = {
     consoleLogLevel = 3;
-    initrd.verbose = false;
     plymouth.enable = true;
 
     kernelParams = [

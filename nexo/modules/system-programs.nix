@@ -1,12 +1,11 @@
 { pkgs, ... }:
 
 {
-  programs = {
-    nano.enable = false;
-    qtengine.enable = true;
-  };
+  programs.nano.enable = false;
+  programs.qtengine.enable = true;
 
-  security.pam.services.hyprlock = {};
+  services.gvfs.enable = true;
+  services.udisks2.enable = true;
 
   environment.systemPackages = with pkgs; [
     neovim
@@ -14,7 +13,7 @@
     lsd
     bat
     bottom
-    dnsmasq
+    duf
     xwayland-satellite
     kitty
     loupe
@@ -22,17 +21,10 @@
     gnome-calculator
     libreoffice
     firefox
-    filezilla
     morewaita-icon-theme
     adw-gtk3
-    swayidle
-    waybar
-    swaybg
-    fuzzel
-    hyprlock
     nil
     bash-language-server
-    docker-language-server
   ];
 
   fonts.packages = with pkgs; [

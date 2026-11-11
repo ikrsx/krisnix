@@ -4,7 +4,8 @@
 
     shellAliases = {
       ls = "lsd";
-      cat = "bat";
+      cat = "bat --theme='Catppuccin Mocha'";
+      df = "duf";
       cleanup = "sudo nix-collect-garbage -d";
       rebuild = "sudo nixos-rebuild switch --flake";
       rebuild-boot = "sudo nixos-rebuild boot --flake";

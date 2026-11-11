@@ -19,19 +19,4 @@ in
     source = symlink "${dotfiles}/nvim";
     recursive = true;
   };
-
-  xdg.configFile."fuzzel" = {
-    source = symlink "${dotfiles}/fuzzel";
-    recursive = true;
-  };
-
-  xdg.configFile."waybar" = {
-    source = symlink "${dotfiles}/waybar";
-    recursive = true;
-  };
-
-  xdg.configFile."hypr" = {
-    source = symlink "${dotfiles}/hypr";
-    recursive = true;
-  };
 }
