@@ -1,0 +1,51 @@
+binds {
+    Ctrl+Alt+Delete hotkey-overlay-title="Power Menu: Open" { spawn "dms" "ipc" "call" "powermenu" "open"; }
+    Mod+R hotkey-overlay-title="Default Launcher: Toggle" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
+    Mod+Shift+Slash hotkey-overlay-title="Keybinds Cheatsheet: Toggle" { spawn "dms" "ipc" "call" "keybinds" "toggle" "niri"; }
+    Print hotkey-overlay-title="Screenshot: Region" { spawn "dms" "screenshot"; }
+    Super+Alt+L hotkey-overlay-title="Lock Screen" { spawn "dms" "ipc" "call" "lock" "lock"; }
+    XF86AudioLowerVolume allow-when-locked=true hotkey-overlay-title="Volume Down (5%)" { spawn "dms" "ipc" "call" "audio" "decrement" "5"; }
+    XF86AudioMicMute allow-when-locked=true hotkey-overlay-title="Microphone Mute Toggle" { spawn "dms" "ipc" "call" "mic" "mute"; }
+    XF86AudioMute allow-when-locked=true hotkey-overlay-title="Volume Mute Toggle" { spawn "dms" "ipc" "call" "audio" "mute"; }
+    XF86AudioRaiseVolume hotkey-overlay-title="Volume Up (5%)" allow-when-locked=true { spawn "dms" "ipc" "call" "audio" "increment" "5"; }
+    XF86MonBrightnessDown allow-when-locked=true hotkey-overlay-title="Brightness Down (5%)" { spawn "dms" "ipc" "call" "brightness" "decrement" "5" ""; }
+    XF86MonBrightnessUp allow-when-locked=true hotkey-overlay-title="Brightness Up (5%)" { spawn "dms" "ipc" "call" "brightness" "increment" "5" ""; }
+    Mod+J hotkey-overlay-title="Focus Workspace Down" { focus-workspace-down; }
+    Mod+K hotkey-overlay-title="Focus Workspace Up" { focus-workspace-up; }
+    Mod+Shift+J hotkey-overlay-title="Move Window To Workspace Down" { move-window-to-workspace-down; }
+    Mod+Shift+K hotkey-overlay-title="Move Window To Workspace Up" { move-window-to-workspace-up; }
+    Mod+WheelScrollDown hotkey-overlay-title="Focus Workspace Down" { focus-workspace-down; }
+    Mod+WheelScrollUp hotkey-overlay-title="Focus Workspace Up" { focus-workspace-up; }
+    Shift+Mod+WheelScrollDown hotkey-overlay-title="Move Window To Workspace Down" { move-window-to-workspace-down; }
+    Shift+Mod+WheelScrollUp hotkey-overlay-title="Move Window To Workspace Up" { move-window-to-workspace-up; }
+    Ctrl+Mod+WheelScrollDown hotkey-overlay-title="Focus Right" { focus-column-right; }
+    Ctrl+Mod+WheelScrollUp hotkey-overlay-title="Focus Left" { focus-column-left; }
+    Mod+Ctrl+H hotkey-overlay-title="Focus Monitor Left" { focus-monitor-left; }
+    Mod+Ctrl+J hotkey-overlay-title="Focus Monitor Down" { focus-monitor-down; }
+    Mod+Ctrl+K hotkey-overlay-title="Focus Monitor Up" { focus-monitor-up; }
+    Mod+Ctrl+L hotkey-overlay-title="Focus Monitor Right" { focus-monitor-right; }
+    Mod+Equal hotkey-overlay-title="Set Column Width (+10%)" { set-column-width "+10%"; }
+    Mod+F hotkey-overlay-title="Maximize Window" { maximize-column; }
+    Mod+H hotkey-overlay-title="Focus Left" { focus-column-left; }
+    Mod+L hotkey-overlay-title="Focus Right" { focus-column-right; }
+    Mod+M hotkey-overlay-title="Maximize Widow To Edges" { maximize-window-to-edges; }
+    Mod+Minus hotkey-overlay-title="Set Column Width (-10%)" { set-column-width "-10%"; }
+    Mod+Q repeat=false hotkey-overlay-title="Close Window" { close-window; }
+    Mod+Shift+Ctrl+H hotkey-overlay-title="Move Window To Monitor Left" { move-column-to-monitor-left; }
+    Mod+Shift+Ctrl+J hotkey-overlay-title="Move Window To Monitor Down" { move-column-to-monitor-down; }
+    Mod+Shift+Ctrl+K hotkey-overlay-title="Move Window To Monitor Up" { move-column-to-monitor-up; }
+    Mod+Shift+Ctrl+L hotkey-overlay-title="Move Window To Monitor Right" { move-column-to-monitor-right; }
+    Mod+Shift+Equal hotkey-overlay-title="Set Window Height (+10%)" { set-window-height "+10%"; }
+    Mod+Shift+F hotkey-overlay-title="Fullscreen Window" { fullscreen-window; }
+    Mod+Shift+H hotkey-overlay-title="Move Window To Left" { move-column-left; }
+    Mod+Shift+L hotkey-overlay-title="Move Window To Right" { move-column-right; }
+    Mod+Shift+Minus hotkey-overlay-title="Set Window Height (-10%)" { set-window-height "-10%"; }
+    Mod+Shift+V hotkey-overlay-title="Switch Between Floating/Tiling Window" { switch-focus-between-floating-and-tiling; }
+    Mod+V hotkey-overlay-title="Toggle Floating Window" { toggle-window-floating; }
+    Mod+Shift+P hotkey-overlay-title="Power Off Monitor" { power-off-monitors; }
+    Mod+Shift+E hotkey-overlay-title="Quit Niri" { quit; }
+    Mod+B allow-when-locked=true hotkey-overlay-title="Open Browser: Firefox" { spawn "firefox"; }
+    Mod+T hotkey-overlay-title="Open Terminal: Kitty" { spawn "kitty"; }
+    Mod+Escape hotkey-overlay-title="Toggle Shortcuts Inhibit" allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
+    Mod+O repeat=false hotkey-overlay-title="Toggle Overview" { toggle-overview; }
+}

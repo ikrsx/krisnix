@@ -14,6 +14,8 @@
     bat
     dux-gop
     duf
+    dnsmasq
+    virt-manager
     xwayland-satellite
     kitty
     loupe

@@ -19,4 +19,9 @@ in
     source = symlink "${dotfiles}/nvim";
     recursive = true;
   };
+
+  xdg.configFile."dms" = {
+    source = symlink "${dotfiles}/dms";
+    recursive = true;
+  };
 }

@@ -1,5 +1,5 @@
 vim.pack.add({
-  'https://github.com/catppuccin/nvim',
+  'https://github.com/duxlabs-dev/base46',
   'https://github.com/nvim-lualine/lualine.nvim',
   'https://github.com/rafamadriz/friendly-snippets',
   'https://github.com/Saghen/blink.cmp',
@@ -9,8 +9,8 @@ vim.pack.add({
   'https://github.com/neovim/nvim-lspconfig',
 })
 
-require('catppuccin').setup({
-  transparent_background = true
+require('base46').setup({
+  transparency = true
 })
 require('lualine').setup()
 require("nvim-tree").setup()
