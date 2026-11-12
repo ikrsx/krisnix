@@ -636,9 +636,9 @@
   "notepadDefaultMode": "popout",
   "notepadUseCompositorGap": true,
   "fontScale": 1,
-  "fontFamily": "Inter",
-  "monoFontFamily": "JetBrains Mono",
-  "displayFontFamily": "Liberation Serif",
+  "fontFamily": "Sans Serif",
+  "monoFontFamily": "Monospace",
+  "displayFontFamily": "Serif",
   "matugenTemplateNeovim": true,
   "matugenTemplateNeovimSettings": {
     "dark": {
