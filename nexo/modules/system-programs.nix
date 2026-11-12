@@ -28,10 +28,4 @@
     nil
     bash-language-server
   ];
-
-  fonts.packages = with pkgs; [
-    inter
-    nerd-fonts.jetbrains-mono
-    corefonts
-  ];
 }
