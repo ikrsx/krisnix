@@ -649,5 +649,11 @@
       "baseTheme": "catppuccin-latte",
       "harmony": 0
     }
-  }
+  },
+  "launcherPluginVisibility": {
+    "dms_power": {
+      "allowWithoutTrigger": true
+    }
+  },
+  "matugenTemplateFirefox": true
 }
